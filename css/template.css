@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0px;
   padding: 0px;
   font-family: "Lato", Verdana, Tahoma, sans-serif;
@@ -154,4 +154,13 @@ a.ajax {
   height: 197px;
   padding: 0;
   position: static;
+} */
+
+/* .menu-top-menu-container ul li {
+  display: inline;
+  text-decoration: none;
+} */
+
+.test {
+  display: inline;
 }
