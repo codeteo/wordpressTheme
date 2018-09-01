@@ -11,10 +11,24 @@
 <body <?php body_class() ?>>
 
 <div class="container">
+
     <div class="row">
-        <div class="test col-md-6 col-sm-6 col-lg-6" style="background-color:lightblue">
-		    Lorem Ipsum Dolo
-		</div>
+        <div class="sidebar col-4">
+            <div id="logo">
+                <div id="logoname"></div> 
+                <div id="playerdiv"> 
+                    <iframe id="player" scrolling="no" src="https://denovali.com/0player/player.php?playlist=denovali.com%2Fdictaphone%2Fall.xspf&skin=dictaphonehp&autoplay=true&color=000000&scrolllongnames=true&scrolltresh=135"></iframe>
+                </div>
+            </div> 
+            <div>
+                <div class="row">
+                    <nav class="main-menu">
+                    <?php wp_nav_menu( array('theme_location' => 'my_main_menu') ); ?>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="albums col-8">Albums</div>
     </div>
 
 </div>
