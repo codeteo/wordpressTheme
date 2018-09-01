@@ -24,6 +24,28 @@
                 <div class="row">
                     <nav class="main-menu">
                     <?php wp_nav_menu( array('theme_location' => 'my_main_menu') ); ?>
+       
+                    <?php
+                    if( have_posts() ):
+                        while( have_posts() ): the_post();
+                    ?>
+
+                    <article>   
+                        <!-- <h2><?php the_title() ?></h2> -->
+                        <p>Posted in <?php echo get_the_date(); ?> </p>
+                        <!-- <p>Categories: <?php the_category(); ?></p> -->
+                        <p><?php the_content(); ?></p>
+                    </article>
+
+                    <?php 
+                    endwhile;
+                    else:
+                    ?>
+
+                    <p>There is nothing yet to be displayed!</p>
+
+                    <?php endif; ?>
+       
                     </nav>
                 </div>
             </div>
