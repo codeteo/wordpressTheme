@@ -19,3 +19,6 @@ register_nav_menus(
         'my_main_menu' => 'Main Menu'        
     )
 );
+
+// disable admin-bar
+show_admin_bar(false);

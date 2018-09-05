@@ -1,3 +1,7 @@
+html {
+  margin: 0px !important;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -91,4 +95,8 @@ body {
   margin-top: 50px;
   margin-left: 25px;
   width: 350px;
+}
+
+#menu-item-25 {
+  display: none;
 }
