@@ -13,7 +13,7 @@
 <div class="container">
 
     <div class="row">
-        <div class="sidebar col-4">
+        <div class="section-left sidebar">
             <div id="logo">
                 <div id="logoname"></div> 
                 <div id="playerdiv"> 
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="albums col-8">
+        <div class="section-right album">
         
             <?php
 

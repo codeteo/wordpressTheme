@@ -82,9 +82,7 @@ body {
 }
 
 .row > .main-menu li a {
-  /* text-decoration: none; */
   color: black;
-  /* background-color: yellow; */
 }
 
 .menu {
@@ -99,4 +97,28 @@ body {
 
 #menu-item-25 {
   display: none;
+}
+
+/* Sections */
+
+.section-left {
+  /* background-color: red; */
+  width: 350px;
+  float: left;
+}
+
+.section-right {
+  background-color: green;
+  height: 100vh;
+  margin-left: 100px;
+}
+
+.section-wrapper {
+  /* background-color: yellow; */
+  height: 100px;
+  margin: 25px 25px 25px 25px;
+}
+
+.section-left > .row {
+  margin: 0 auto;
 }
