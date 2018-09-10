@@ -23,7 +23,7 @@ body {
 #logoname {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 15px;
   height: 75px;
   width: 250px;
   background: url(https://denovali.com/dictaphone/hp/logo.png) 0 0 no-repeat;
