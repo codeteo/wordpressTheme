@@ -11,6 +11,13 @@ function load_scripts() {
 
     wp_enqueue_style('template', get_template_directory_uri(). '/css/template.css',
          array(), '1.0', 'all' );
+
+    wp_enqueue_script('backstretch-js',
+        'https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js',
+        array('jquery'), '2.0.4', true );
+
+    wp_enqueue_script('js-backstretch-js', get_template_directory_uri(). '/js/backstretch.js',
+        array('jquery'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'load_scripts');
 
