@@ -44,7 +44,7 @@ body {
 }
 
 .container {
-  margin-left: 50px;
+  margin-left: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -70,6 +70,10 @@ body {
 
 .main-menu-label {
   padding: 0;
+}
+
+.row {
+  margin: 0px;
 }
 
 .row > .main-menu li {
@@ -101,15 +105,17 @@ body {
 /* Sections */
 
 .section-left {
-  /* background-color: red; */
-  width: 350px;
+  width: 400px;
+  margin-left: 50px;
   float: left;
 }
 
 .section-right {
   background-color: green;
   height: 100vh;
-  margin-left: 100px;
+  position: absolute;
+  left: 450px;
+  margin-left: 50px;
 }
 
 .section-wrapper {
