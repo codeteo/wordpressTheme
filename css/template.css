@@ -9,7 +9,19 @@ body {
   font-size: 12px;
   color: #000000;
   letter-spacing: 2px;
+  line-height: 1;
   background-color: white;
+}
+
+a {
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  border-bottom: 1px dotted black;
+}
+
+article {
+  margin-top: 50px;
 }
 
 #logo {
@@ -86,6 +98,9 @@ body {
 
 .row > .main-menu li a {
   color: black;
+  font-weight: 900;
+  text-decoration: none;
+  border-bottom: 0px;
 }
 
 .menu {
@@ -113,9 +128,27 @@ body {
 .section-right {
   background-color: green;
   height: 100vh;
+  width: 500px;
   position: absolute;
   left: 450px;
   margin-left: 50px;
+}
+
+.section-right h2 {
+  visibility: hidden;
+}
+
+.section-right img {
+  width: 80%; /* to maintain aspect ratio. You can use 100% if you don't care about that */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  /* width: 350px; */
+  /* height: 400px; */
+}
+
+.section-right p a {
+  justify-content: center;
 }
 
 .section-wrapper {

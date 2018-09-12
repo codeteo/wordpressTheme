@@ -17,8 +17,11 @@
             <div id="logo">
                 <div id="logoname"></div> 
                 <div id="playerdiv"> 
-                    <iframe id="player" scrolling="no" src="https://denovali.com/0player/player.php?playlist=denovali.com%2Fdictaphone%2Fall.xspf&skin=dictaphonehp&autoplay=true&color=000000&scrolllongnames=true&scrolltresh=135"></iframe>
-                </div>
+                    <!-- <iframe id="player" scrolling="no" src="https://denovali.com/0player/player.php?playlist=denovali.com%2Fdictaphone%2Fall.xspf&skin=dictaphonehp&autoplay=true&color=000000&scrolllongnames=true&scrolltresh=135"></iframe> -->
+                    <!-- <iframe id="player" style="height:42px;" scrolling="no" src="https://bandcamp.com/EmbeddedPlayer/album=84871240/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" ></iframe> -->
+                    <!-- <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=84871240/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=none/transparent=true/" seamless><a href="http://unshapedahead.bandcamp.com/album/baul"></iframe> -->
+                    <iframe style="border: 0; width: 350px; height: 100px;" src="https://bandcamp.com/EmbeddedPlayer/album=84871240/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://unshapedahead.bandcamp.com/album/baul"></iframe>
+                    </div>
             </div> 
             <div>
                 <div class="row">
@@ -31,7 +34,7 @@
                     ?>
 
                     <article>   
-                        <p>Posted in <?php echo get_the_date(); ?> </p>
+                        <!-- <p>Posted in <?php echo get_the_date(); ?> </p> -->
                         <p><?php the_content(); ?></p>
                     </article>
 
