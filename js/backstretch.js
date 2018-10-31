@@ -1,10 +1,13 @@
 jQuery(document).ready(function($) {
-  $.backstretch("https://denovali.com/dictaphone/back.jpg", {
-    centeredX: false
-  });
+  $.backstretch(
+    "http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/back.jpg",
+    {
+      centeredX: false
+    }
+  );
 
   // Centers album's image
   $("img").addClass("mx-auto d-block");
 
-  $("section-right").addClass("text-center");
+  $(".section-right").addClass("text-center");
 });
