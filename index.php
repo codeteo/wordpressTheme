@@ -28,7 +28,6 @@
                     ?>
 
                     <article>   
-                        <!-- <p>Posted in <?php echo get_the_date(); ?> </p> -->
                         <p><?php the_content(); ?></p>
                     </article>
 
@@ -57,9 +56,7 @@
 
                     while ( $query->have_posts() ) {
                         $query->the_post();
-                        // echo "<div class='post-text'>"; 
                         the_content();
-                        // echo "</div>";
                     }
                 ?>
             </div>

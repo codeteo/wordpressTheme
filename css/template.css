@@ -1,5 +1,12 @@
 html {
   margin: 0px !important;
+  -ms-overflow-style: none; /* IE 10+ */
+  overflow: -moz-scrollbars-none; /* Firefox */
+}
+
+/* Hides scrollbar in Chrome */
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -24,6 +31,8 @@ a {
 
 article {
   margin-top: 50px;
+  /* display: inline; */
+  /* overflow: auto; */
 }
 
 #logo {
@@ -123,13 +132,12 @@ article {
   margin-left: 240px;
   float: left;
   height: 90vh;
-  /* height: 100vh; */
+  overflow: auto;
   background-image: url(https://denovali.com/images/streampages/dictaphone.png);
 }
 
 .section-right {
   position: absolute;
-  /* background-image: url(https://denovali.com/images/streampages/dictaphone.png); */
   height: 90vh;
   width: 600px;
   left: 600px;
@@ -153,7 +161,6 @@ article {
 }
 
 .section-wrapper {
-  /* background-color: yellow; */
   height: 100px;
   margin: 25px 25px 25px 25px;
 }
@@ -164,19 +171,14 @@ article {
 
 .logo-bottom {
   position: absolute;
-  /* height: 10vh; */
   width: 400px;
   overflow: hidden;
   bottom: 0;
-  /* margin: 0 auto; */
-  /* left: 0; */
-  /* background-image: url(http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/logo-bottom.jpeg); */
 }
 
 .logo-bottom .mx-auto {
   margin-left: 0 !important;
   margin-right: 0 !important;
-  /* left: ; */
 }
 
 .post {
