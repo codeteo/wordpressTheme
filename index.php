@@ -44,6 +44,9 @@
                     </nav>
                 </div>
             </div>
+            <div class="logo-bottom">
+                <img src="http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/logo-bottom.jpeg" alt="Italian Trulli">
+            </div>
         </div>
         <div class="section-right album">
 
@@ -54,7 +57,9 @@
 
                     while ( $query->have_posts() ) {
                         $query->the_post();
+                        // echo "<div class='post-text'>"; 
                         the_content();
+                        // echo "</div>";
                     }
                 ?>
             </div>
