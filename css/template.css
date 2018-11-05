@@ -1,12 +1,5 @@
 html {
   margin: 0px !important;
-  -ms-overflow-style: none; /* IE 10+ */
-  overflow: -moz-scrollbars-none; /* Firefox */
-}
-
-/* Hides scrollbar in Chrome */
-::-webkit-scrollbar {
-  display: none;
 }
 
 body {
@@ -132,7 +125,6 @@ article {
   margin-left: 240px;
   float: left;
   height: 90vh;
-  overflow: auto;
   background-image: url(https://denovali.com/images/streampages/dictaphone.png);
 }
 
