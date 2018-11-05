@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="logo-bottom">
-                <img src="http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/logo-bottom.jpeg" alt="Italian Trulli">
+                <img src="http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/logo-bottom.png" alt="logo" width="288" height="46">
             </div>
         </div>
         <div class="section-right album">
