@@ -45,11 +45,11 @@ article {
 
 #logoname {
   position: absolute;
-  top: 0;
+  font-size: 18px;
+  font-weight: 600;
+  bottom: 0;
   left: 15px;
-  height: 75px;
   width: 250px;
-  background: url(https://denovali.com/dictaphone/hp/logo.png) 0 0 no-repeat;
   background-size: 350px 75px;
 }
 
@@ -195,7 +195,8 @@ article {
 @media only screen and (min-width: 550px) and (max-width: 849px) {	
   .section-left { margin-left: 0;width: 100%;}
 	.section-right { position: static; margin: 0; float: left; clear: both; width: 550px; }	
-	.main { margin-bottom: 50px; width: 500px; }	
+  .main { margin-bottom: 50px; width: 500px; }	
+  .logo-bottom {visibility: hidden}
 }
 
 /**
@@ -206,7 +207,8 @@ article {
   .section-left { margin-left: 0;width: 100%;}
   .section-right { position: static; margin: 0; float: left; clear: both; width: 550px; }	
 	iframe.videowrapper_m { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; }
-	div.videowrapper_m { position: relative; width: 100%; max-width: 350px; height: 0px; padding-bottom: 56.25%;}	
+  div.videowrapper_m { position: relative; width: 100%; max-width: 350px; height: 0px; padding-bottom: 56.25%;}	
+  .logo-bottom {visibility: hidden}
 }
 
 /**
@@ -236,4 +238,8 @@ article {
     url("customfonts-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+.page-id-10 .logo-bottom > img {
+  visibility: hidden;
 }

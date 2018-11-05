@@ -15,7 +15,7 @@
     <div class="row">
         <div class="section-left sidebar">
             <div id="logo">
-                <div id="logoname"></div> 
+                <div id="logoname">Unshaped_Ahead</div> 
             </div> 
             <div>
                 <div class="row">
