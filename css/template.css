@@ -63,8 +63,8 @@ article {
 }
 
 .sidebar {
-  /* height: 100vh;
-  background-image: url(https://denovali.com/images/streampages/dictaphone.png); */
+  /* height: auto; */
+  /* background-image: url(https://denovali.com/images/streampages/dictaphone.png); */
 }
 
 .albums {
