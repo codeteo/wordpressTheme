@@ -252,3 +252,8 @@ article {
 .page-id-10 .logo-bottom > img {
   visibility: hidden;
 }
+
+i[class^="icon-"]:before {
+  display: inline-block;
+  text-decoration: none;
+}

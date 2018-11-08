@@ -40,13 +40,13 @@
 
                 <div class="icon-right">
                     <span style="font-size: 1.3em;margin-right:10px;">
-                        <a href="https://www.facebook.com/UnshapedAhead/" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
+                        <a href="https://www.facebook.com/UnshapedAhead/" style="border-bottom: none;" target="_blank">
+                            <i class="fab fa-facebook-f icon-1"></i>
                         </a>
                     </span>
                     <span style="font-size: 1.3em;margin-right:10px;">
-                        <a href="https://www.youtube.com/user/dimovryz" target="_blank">
-                            <i class="fab fa-youtube"></i>
+                        <a href="https://www.youtube.com/user/dimovryz" style="border-bottom: none;" target="_blank">
+                            <i class="fab fa-youtube icon-2"></i>
                         </a>
                     </span>
                 </div>
