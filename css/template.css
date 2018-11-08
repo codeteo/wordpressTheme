@@ -23,9 +23,15 @@ a {
 }
 
 article {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   /* display: inline; */
   /* overflow: auto; */
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 #logo {
@@ -76,9 +82,8 @@ article {
 }
 
 .main-menu {
-  height: 80px;
+  height: 40px;
   margin-left: 15px;
-  margin-right: 0px;
 }
 
 .main-menu-label {
@@ -116,6 +121,18 @@ article {
 
 #menu-item-25 {
   display: none;
+}
+
+.icon-right {
+  position: absolute;
+  right: 0;
+  /* right: 0; */
+  /* float: right; */
+}
+
+.main-menu-no-wrap {
+  position: relative;
+  flex-wrap: nowrap;
 }
 
 /* Sections */

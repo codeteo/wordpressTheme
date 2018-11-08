@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vryzas WP</title>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <?php wp_head(); ?>
 </head>
 <body <?php body_class() ?>>
@@ -17,35 +18,47 @@
             <div id="logo">
                 <div id="logoname">Unshaped_Ahead</div> 
             </div> 
-            <div>
-                <div class="row">
-                    <nav class="main-menu">
-                    <?php  wp_nav_menu( array('theme_location' => 'my_main_menu') );  ?> 
+            <div class="row main-menu-no-wrap">
+                <nav class="main-menu">
+                <?php  wp_nav_menu( array('theme_location' => 'my_main_menu') );  ?> 
 
-                    <?php
-                    if( have_posts() ):
-                        while( have_posts() ): the_post();
-                    ?>
+                <?php
+                if( have_posts() ):
+                    while( have_posts() ): the_post();
+                ?>
 
-                    <article>   
-                        <p><?php the_content(); ?></p>
-                    </article>
+                <?php 
+                endwhile;
+                else:
+                ?>
 
-                    <?php 
-                    endwhile;
-                    else:
-                    ?>
+                <p>There is nothing yet to be displayed!</p>
 
-                    <p>There is nothing yet to be displayed!</p>
+                <?php endif; ?>
+    
+                </nav>
 
-                    <?php endif; ?>
-       
-                    </nav>
+                <div class="icon-right">
+                    <span style="font-size: 1.3em;margin-right:10px;">
+                        <a href="https://www.facebook.com/UnshapedAhead/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </span>
+                    <span style="font-size: 1.3em;margin-right:10px;">
+                        <a href="https://www.youtube.com/user/dimovryz" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </span>
                 </div>
             </div>
             <div class="logo-bottom">
                 <img src="http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/logo-bottom.png" alt="logo" width="288" height="46">
             </div>
+
+            <article class="clearfix" style="margin-left:15px;">   
+                <p><?php the_content(); ?></p>
+            </article>
+
         </div>
         <div class="section-right album">
 
