@@ -220,40 +220,6 @@ article {
   .logo-bottom {visibility: hidden}
 }
 
-/**
-  * Custom Fonts
-  **/
-/* @font-face {
-  font-family: VryzasFonts;
-  src: url("http://localhost/wp-content/themes/vryzas/fonts/customfonts.ttf");
-  font-weight: normal;
-} */
-
-/* @font-face {
-  font-family: "LatoFonts";
-  src: url("http://localhost/wp-content/themes/vryzas/fonts/Lato-Black.ttf");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: LatoLightFonts;
-  src: url("http://localhost/wp-content/themes/vryzas/fonts/Lato-LightItalic.ttf");
-  font-weight: normal;
-} */
-
-@font-face {
-  font-family: "custom-fonts";
-  src: url("customfonts-webfont.woff2") format("woff2"),
-    url("customfonts-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .page-id-10 .logo-bottom > img {
   visibility: hidden;
-}
-
-i[class^="icon-"]:before {
-  display: inline-block;
-  text-decoration: none;
 }
