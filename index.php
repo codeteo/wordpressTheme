@@ -11,9 +11,8 @@
 </head>
 <body <?php body_class() ?>>
 
-<div class="container">
+<div class="wrapper">
 
-    <div class="row">
         <div class="section-left sidebar">
             <div id="logo">
                 <div id="logoname">Unshaped_Ahead</div> 
@@ -51,9 +50,6 @@
                     </span>
                 </div>
             </div>
-            <div class="logo-bottom">
-                <img src="http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/logo-bottom.png" alt="logo" width="288" height="46">
-            </div>
 
             <article class="clearfix" style="margin-left:15px;">   
                 <p><?php the_content(); ?></p>
@@ -79,7 +75,6 @@
             </div>
         
         </div>
-    </div>
 
 </div>
 
