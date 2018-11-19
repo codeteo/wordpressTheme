@@ -13,7 +13,7 @@
 
 <div class="wrapper">
 
-        <div class="section-left sidebar">
+        <div id="content" class="section-left sidebar">
             <div id="logo">
                 <div id="logoname">Unshaped_Ahead</div> 
             </div> 
@@ -52,11 +52,12 @@
             </div>
 
             <article class="clearfix" style="margin-left:15px;">   
+                <a class="trick" rel="<?php the_ID(); ?>" href="<?php the_ID();?>"></a>   
                 <p><?php the_content(); ?></p>
             </article>
 
         </div>
-        <div class="section-right album">
+        <div id="album-page" class="section-right album">
 
             <div class="post">
                 <?php
@@ -64,9 +65,13 @@
                     $query = new WP_Query( array( 'pagename' => 'album' ) );
 
                     while ( $query->have_posts() ) {
-                        $query->the_post();
-                        the_content();
-                    }
+                ?>
+
+                <?php    
+
+                    $query->the_post();
+                    the_content();
+                }
                 ?>
             </div>
 
