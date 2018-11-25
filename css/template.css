@@ -143,8 +143,9 @@ article {
 .wrapper {
   width: auto;
   margin: 0 auto;
-  display: inline-block;
+  /* display: inline-block; */
   text-align: left;
+  margin-left: 200px;
 }
 
 .section-left {
@@ -161,7 +162,7 @@ article {
   text-align: center;
   float: left;
   height: 90vh;
-  width: 400px;
+  width: 500px;
   margin-top: 87px;
 }
 
@@ -170,7 +171,7 @@ article {
 }
 
 .section-right img {
-  width: 80%; /* to maintain aspect ratio. You can use 100% if you don't care about that */
+  width: 100%; /* to maintain aspect ratio. You can use 100% if you don't care about that */
   height: auto;
   display: block;
   margin: 0 auto;
