@@ -1,10 +1,10 @@
 jQuery(document).ready(function($) {
-  $.backstretch(
-    "http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/back.jpg",
-    {
-      centeredX: false
-    }
-  );
+  // $.backstretch(
+  //   "http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/back.jpg",
+  //   {
+  //     centeredX: false
+  //   }
+  // );
 
   // Centers album's image
   $("img").addClass("mx-auto d-block");
@@ -13,6 +13,7 @@ jQuery(document).ready(function($) {
 
   $("#menu-item-8").click(function(event) {
     event.preventDefault();
+    console.log("NEWS Clicked");
 
     var url =
       "http://localhost/Wordpress/wp/wp-content/themes/vryzas/news-page.php";
@@ -32,6 +33,12 @@ jQuery(document).ready(function($) {
 
   $("#menu-item-11").click(function(event) {
     event.preventDefault();
+    console.log("About Clicked");
+
+    var post_id = $(".trick").attr("rel");
+    var post_url = $(".trick").attr("href");
+    console.log("LINK: " + post_id);
+    console.log(" URL: " + post_url);
 
     var url =
       "http://localhost/Wordpress/wp/wp-content/themes/vryzas/about-page.php";
@@ -53,6 +60,11 @@ jQuery(document).ready(function($) {
 
   $("#menu-item-14").click(function(event) {
     event.preventDefault();
+    console.log("Contact Clicked");
+
+    var post_id = $(".trick").attr("rel");
+    var post_url = $(".trick").attr("href");
+    console.log("LINK: " + post_id + " URL: " + post_url);
 
     var url =
       "http://localhost/Wordpress/wp/wp-content/themes/vryzas/contact-page.php";

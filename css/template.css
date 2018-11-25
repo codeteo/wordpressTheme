@@ -13,8 +13,10 @@ body {
   background: none transparent;
   text-align: center;
   background-repeat: no-repeat;
-  background-image: url(http://unshapedahead.com/wp-content/themes/vryzas/imgs/back.jpg);
-  background-size: cover;
+  background-color: #b13924;
+  background-position: left 10px, right 10px;
+  background-image: url(http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/bg_left.png),
+    url(http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/bg_right.png);
 }
 
 a {
