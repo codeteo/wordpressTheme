@@ -13,10 +13,8 @@ body {
   background: none transparent;
   text-align: center;
   background-repeat: no-repeat;
-  background-color: #b13924;
-  background-position: left 10px, right 10px;
-  background-image: url(http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/bg_left.png),
-    url(http://localhost/Wordpress/wp/wp-content/themes/vryzas/imgs/bg_right.jpeg);
+  background-image: url(http://unshapedahead.com/wp-content/themes/vryzas/imgs/back.jpg);
+  background-size: cover;
 }
 
 a {
@@ -123,7 +121,7 @@ article {
   width: 350px;
 }
 
-#menu-item-25 {
+#menu-item-22 {
   display: none;
 }
 
@@ -143,15 +141,17 @@ article {
 .wrapper {
   width: auto;
   margin: 0 auto;
+  display: inline-block;
   text-align: left;
-  margin-left: 200px;
 }
 
 .section-left {
+  /* display: inline-block; */
   width: 400px;
+  /* margin-left: 240px; */
   float: left;
-  min-height: 100vh;
-  height: 100%;
+  min-height: 90vh;
+  height: 90vh;
   background-image: url(https://denovali.com/images/streampages/dictaphone.png);
 }
 
@@ -159,7 +159,7 @@ article {
   text-align: center;
   float: left;
   height: 90vh;
-  width: 500px;
+  width: 400px;
   margin-top: 87px;
 }
 
@@ -168,7 +168,7 @@ article {
 }
 
 .section-right img {
-  width: 100%; /* to maintain aspect ratio. You can use 100% if you don't care about that */
+  width: 80%; /* to maintain aspect ratio. You can use 100% if you don't care about that */
   height: auto;
   display: block;
   margin: 0 auto;
@@ -219,7 +219,6 @@ article {
     background-image: none;
     background-color: #b13924;
   }
-  .wrapper{margin-left: 0;}
   .section-left { margin-left: 0;}
   .section-right { position: static; margin: 0; float: left; clear: both; }	
 	iframe.videowrapper_m { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; }
@@ -232,7 +231,6 @@ article {
   */
 /* prettier-ignore */
 @media only screen and (min-width: 550px) and (max-width: 849px) {	
-  /* .wrapper{margin-left: 0;} */
   .section-left { margin-left: 0;}
 	.section-right { position: static; margin: 0; float: left; clear: both; }	
   .main { margin-bottom: 50px; width: 500px; }	
@@ -244,7 +242,7 @@ article {
   */
 /* prettier-ignore */
 @media (max-width:1400px) and (min-width:850px) {
-  .section-right {  width: 380px; margin-left: 50px; margin-top: 50px; }
+  .section-right {margin-left: 50px; }
 }
 
 /**
@@ -252,7 +250,7 @@ article {
   */
 /* prettier-ignore */
 @media (min-width:1400px) {
-  .section-right {width: 500px; margin-left: 100px; }
+  .section-right {margin-left: 100px; }
 }
 
 .page-id-10 .logo-bottom > img {
